@@ -4,9 +4,6 @@
 
 !(function( $ ) {
 
-	$('.element').socialShare({
-	    twitter:true,
-	    image:'https://download.unsplash.com/photo-1426200830301-372615e4ac54'
-	});
+	$('.element').socialShare();
 
 })( window.jQuery );

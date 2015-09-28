@@ -1,5 +1,7 @@
-
-.element button{
+.tbr-beans-social .group {
+  position: relative;
+}
+.tbr-beans-social button{
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 2px;
@@ -13,49 +15,50 @@
   -o-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
-.fb{
-  background-color: #306199;
-}
-.fb:hover{
-  background-color: #244872;
-}
-.count{
-  background-color: #fff;
-  color: #565656;
+.tbr-beans-social .count{
+  background-color: #ddd;
+  color: #444;
   border-radius: 2px;
   margin-bottom: 10px;
   text-align: center;
   padding: 10px;
   height: 40px;
 }
-.uk-icon-caret-down{
+.tbr-beans-social .uk-icon-caret-down{
   position: absolute;
   margin-top: -22px;
   text-align: center;
   right: 10px;
   font-size: 28px;
+  color: #ddd;
 }
-.gp{
+.tbr-beans-social .fb{
+  background-color: #306199;
+}
+.tbr-beans-social .fb:hover{
+  background-color: #244872;
+}
+.tbr-beans-social .gp{
   background-color: #e93f2e;
 }
-.gp:hover{
+.tbr-beans-social .gp:hover{
   background-color: #ce2616;
 }
-.linkedin{
+.tbr-beans-social .linkedin{
   background-color: #007bb6;
 }
-.linkedin:hover{
+.tbr-beans-social .linkedin:hover{
   background-color: #005983;
 }
-.twitter{
+.tbr-beans-social .twitter{
   background-color: #26c4f1;
 }
-.twitter:hover{
+.tbr-beans-social .twitter:hover{
   background-color: #0eaad6;
 }
-.pinterest{
+.tbr-beans-social .pinterest{
   background-color: #b81621;
 }
-.pinterest:hover{
+.tbr-beans-social .pinterest:hover{
   background-color: #8a1119;
 }
